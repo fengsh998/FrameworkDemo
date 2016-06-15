@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9DC801CC1D0EA53000B47AF6 /* FKMCpu */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9DC801CD1D0EA53000B47AF6 /* Build configuration list for PBXAggregateTarget "FKMCpu" */;
+			buildPhases = (
+				9DC801D21D0EA55300B47AF6 /* ShellScript */,
+			);
+			dependencies = (
+				9DC801D11D0EA54100B47AF6 /* PBXTargetDependency */,
+			);
+			name = FKMCpu;
+			productName = FKMCpu;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9DC801BB1D0E5CD500B47AF6 /* FKLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DC801BA1D0E5CD500B47AF6 /* FKLib.h */; };
+		9DC801C81D0E65CB00B47AF6 /* FKUIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC801C61D0E65CB00B47AF6 /* FKUIProgressView.m */; };
+		9DC801C91D0E65CB00B47AF6 /* FKUIProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC801C71D0E65CB00B47AF6 /* FKUIProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC801CA1D0E662100B47AF6 /* FKLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC801BA1D0E5CD500B47AF6 /* FKLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DC801D01D0EA54100B47AF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC801AF1D0E5CD500B47AF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC801B61D0E5CD500B47AF6;
+			remoteInfo = FKLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9DC801B51D0E5CD500B47AF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9DC801BB1D0E5CD500B47AF6 /* FKLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9DC801B71D0E5CD500B47AF6 /* libFKLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFKLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC801BA1D0E5CD500B47AF6 /* FKLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKLib.h; sourceTree = "<group>"; };
+		9DC801C61D0E65CB00B47AF6 /* FKUIProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKUIProgressView.m; sourceTree = "<group>"; };
+		9DC801C71D0E65CB00B47AF6 /* FKUIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKUIProgressView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC801B41D0E5CD500B47AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC801AE1D0E5CD500B47AF6 = {
+			isa = PBXGroup;
+			children = (
+				9DC801B91D0E5CD500B47AF6 /* FKLib */,
+				9DC801B81D0E5CD500B47AF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC801B81D0E5CD500B47AF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC801B71D0E5CD500B47AF6 /* libFKLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC801B91D0E5CD500B47AF6 /* FKLib */ = {
+			isa = PBXGroup;
+			children = (
+				9DC801C61D0E65CB00B47AF6 /* FKUIProgressView.m */,
+				9DC801C71D0E65CB00B47AF6 /* FKUIProgressView.h */,
+				9DC801BA1D0E5CD500B47AF6 /* FKLib.h */,
+			);
+			path = FKLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9DC801C51D0E5F1100B47AF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC801C91D0E65CB00B47AF6 /* FKUIProgressView.h in Headers */,
+				9DC801CA1D0E662100B47AF6 /* FKLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9DC801B61D0E5CD500B47AF6 /* FKLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC801C01D0E5CD500B47AF6 /* Build configuration list for PBXNativeTarget "FKLib" */;
+			buildPhases = (
+				9DC801B31D0E5CD500B47AF6 /* Sources */,
+				9DC801B41D0E5CD500B47AF6 /* Frameworks */,
+				9DC801B51D0E5CD500B47AF6 /* CopyFiles */,
+				9DC801C51D0E5F1100B47AF6 /* Headers */,
+				9DC801CB1D0E9F3C00B47AF6 /* build framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FKLib;
+			productName = FKLib;
+			productReference = 9DC801B71D0E5CD500B47AF6 /* libFKLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC801AF1D0E5CD500B47AF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = fengsh;
+				TargetAttributes = {
+					9DC801B61D0E5CD500B47AF6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9DC801CC1D0EA53000B47AF6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 9DC801B21D0E5CD500B47AF6 /* Build configuration list for PBXProject "FKLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DC801AE1D0E5CD500B47AF6;
+			productRefGroup = 9DC801B81D0E5CD500B47AF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC801B61D0E5CD500B47AF6 /* FKLib */,
+				9DC801CC1D0EA53000B47AF6 /* FKMCpu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DC801CB1D0E9F3C00B47AF6 /* build framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "build framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		9DC801D21D0EA55300B47AF6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# -e表示有失败就全部失败\nset -e\nset +u\n# If we're already inside this script then die\nif [ -n \"$FK_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\n\n#设置如果使用到未定义的变量则报错\nset -u \n#导入环境变量\nexport FK_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n#framework名称\nFK_FRAMEWORK_NAME=${PROJECT_NAME}\n#需要导出的静态库名称\nFK_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\n#framework存放路径\nFK_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${FK_FRAMEWORK_NAME}.framework\"\n#最终导出静库太库和动态库的位置\nFK_SAVE_DIR=\"${PROJECT_DIR}/Exports\"\nrm -rf \"${FK_SAVE_DIR}\"\nmkdir -p \"${FK_SAVE_DIR}\"\n\nFK_SAVE_LIB_DIR=\"${FK_SAVE_DIR}/Lib\"\nFK_SAVE_LIB_INCLUDE_DIR=\"${FK_SAVE_DIR}/Lib/include\"\nmkdir -p \"${FK_SAVE_LIB_DIR}\"\nFK_SAVE_FMWK_DIR=\"${FK_SAVE_DIR}/Fmwk\"\nmkdir -p \"${FK_SAVE_FMWK_DIR}\"\n\n#编译时头文件目录\nFK_HEADERS_INCLUDE=\"${BUILT_PRODUCTS_DIR}/include/${PROJECT_NAME}\"\n\n#构建静态库\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\n#合并cpu架构\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\n    FK_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\n    FK_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\n# 3 - 互换平台，当用模拟器编时则其它平台为iphoneos,当用真机编译时其它平台为iphonesimulator\nif [ \"$FK_SDK_PLATFORM\" == \"iphoneos\" ]; then\n    FK_OTHER_PLATFORM=iphonesimulator\nelse\n    FK_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$FK_SDK_PLATFORM$ ]]; then\n    FK_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${FK_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find other platform build directory.\"\n    exit 1\nfi\n\n# 优先编译其它平台的lib库\nbuild_static_library \"${FK_OTHER_PLATFORM}${FK_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$FK_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# 合并cpu架构,输出到指定位置\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${FK_INPUT_STATIC_LIB}\" \\\n\"${FK_OTHER_BUILT_PRODUCTS_DIR}/${FK_INPUT_STATIC_LIB}\" \\\n\"${FK_SAVE_LIB_DIR}/${FK_INPUT_STATIC_LIB}\"\n\n#copy framework到保存目录\ncp -a \"${FK_FRAMEWORK_LOCATION}\" \"${FK_SAVE_FMWK_DIR}\"\n\n#copy 头文件\ncp -a \"${FK_HEADERS_INCLUDE}\" \"${FK_SAVE_LIB_INCLUDE_DIR}\"\n\n#copy 合并后的lib到framework中\ncp -a \"${FK_SAVE_LIB_DIR}/${FK_INPUT_STATIC_LIB}\" \\\n\"${FK_SAVE_FMWK_DIR}/${FK_FRAMEWORK_NAME}.framework/Versions/A/${FK_FRAMEWORK_NAME}\"\n\nopen \"${FK_SAVE_DIR}\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC801B31D0E5CD500B47AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC801C81D0E65CB00B47AF6 /* FKUIProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DC801D11D0EA54100B47AF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC801B61D0E5CD500B47AF6 /* FKLib */;
+			targetProxy = 9DC801D01D0EA54100B47AF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DC801BE1D0E5CD500B47AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DC801BF1D0E5CD500B47AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC801C11D0E5CD500B47AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9DC801C21D0E5CD500B47AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9DC801CE1D0EA53000B47AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DC801CF1D0EA53000B47AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC801B21D0E5CD500B47AF6 /* Build configuration list for PBXProject "FKLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC801BE1D0E5CD500B47AF6 /* Debug */,
+				9DC801BF1D0E5CD500B47AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC801C01D0E5CD500B47AF6 /* Build configuration list for PBXNativeTarget "FKLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC801C11D0E5CD500B47AF6 /* Debug */,
+				9DC801C21D0E5CD500B47AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC801CD1D0EA53000B47AF6 /* Build configuration list for PBXAggregateTarget "FKMCpu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC801CE1D0EA53000B47AF6 /* Debug */,
+				9DC801CF1D0EA53000B47AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC801AF1D0E5CD500B47AF6 /* Project object */;
+}
